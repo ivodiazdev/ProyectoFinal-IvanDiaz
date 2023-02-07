@@ -86,9 +86,7 @@ header span img {
     width: 100%;
     margin: 30px 0px; }
 
-.icon {
-    font-size: 5rem;
-    margin: 20px 50px 20px 50px; }
+@include icon;
 
 @media (max-width: 992px) {
     .div__descripciones {
